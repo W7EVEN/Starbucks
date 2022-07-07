@@ -1,0 +1,52 @@
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--white);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+header .logo {
+  position: relative;
+  max-width: 70px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  display: flex;
+  margin-right: 8px;
+}
+
+header ul li a {
+  color: var(--black);
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+
+header ul li a:hover {
+  background-color: var(--green);
+  color: var(--white);
+}

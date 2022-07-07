@@ -1,0 +1,31 @@
+.social {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li a {
+  align-items: center;
+  background: var(--black);
+  border-radius: 50%;
+  color: var(--white);
+  display: inline-block;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-right: 15px;
+  transition: 0.3s;
+  width: 50px;
+}
+
+.social li a .fa {
+  font-size: 1.2em;
+}
+
+.social li a:hover {
+  background: var(--green);
+  transform: scale(1.05);
+}
